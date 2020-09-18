@@ -1,0 +1,1 @@
+document.write("Fantastic Beasts has a connection to real American history. Many of the American laws surrounding magic are derived from the Salem Witch Trials of the 1690s. In the Magical Congress of the United States, the names of those who lost their lives during the witch trials are noted on four golden phoenix statues in the entrance.");
