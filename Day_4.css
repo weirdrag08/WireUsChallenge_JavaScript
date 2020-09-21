@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #000000;
+    height: 100vh;
+}
+
+header{
+    font-size: 1.8em;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Trade Winds', 'Lobster';
+}
+
+h1{
+     /* Making texts colorful af (applying linear gradient to texts); (AWESOME)(USE THE COMMENTED PART TO COLOR THE TEXT)*/ 
+     background: linear-gradient(to right, #F32170, #FFEB07, #2196F3, #FF00EB);
+     /* -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text; */
+}
+
+.firstimage{
+    float: left;
+    margin: 2%;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+#mybutton{
+    float: left;
+    height: 60px;
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(left, #1fc51f, #FFFFFF);
+    border-radius: 20px;
+    color: #000000;
+    font-size: 1em;
+    font-family: 'Poppins', monospace;
+}
+
+#newbutton{
+    height: 60px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(bottom, #E2C35D, #D88771);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Poppins', monospace;
+}
