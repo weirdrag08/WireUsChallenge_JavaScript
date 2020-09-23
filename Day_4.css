@@ -15,7 +15,7 @@ header{
 
 h1{
      /* Making texts colorful af (applying linear gradient to texts); (AWESOME)(USE THE COMMENTED PART TO COLOR THE TEXT)*/ 
-     background: linear-gradient(to right, #F32170, #FFEB07, #2196F3, #FF00EB);
+     background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3, #FF00EB);
      /* -webkit-text-fill-color: transparent;
      -webkit-background-clip: text; */
 }
