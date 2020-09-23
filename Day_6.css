@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #000000;
+}
+
+header{
+    text-align: center;
+    font-size: 2em;
+}
+
+h1{
+    font-family: "Lobster", "Trade winds", monospace; 
+    background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: #FFFFFF;
+}
+
+#firstbutton{
+    float: left;
+    color: #FF2D55;
+    font-family: "Trade winds", "Poppins", monospace;
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(left, #000000, #FFFFFF, #FF2D55);
+    height: 4rem;
+    width: 25rem;
+    -webkit-border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#secondbutton{
+    float: left;
+    color: #FF2D55;
+    font-family: "Trade winds", "Poppins", monospace;
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(left, #000000, #FFFFFF, #FF2D55);
+    height: 4rem;
+    width: 25rem;
+    -webkit-border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#demo{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 0%;
+    font-size: 2em;
+    color: #FFFFFF;
+}
