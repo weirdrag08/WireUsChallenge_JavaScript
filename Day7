@@ -1,4 +1,4 @@
-Write your observations on the folloing:
+Write your observations on the following:
 1) Typeof:
     The typeof operator returns the type of a variable or an expression:
     typeof ""             // Returns "string"
