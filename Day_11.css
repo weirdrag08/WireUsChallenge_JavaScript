@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    background: #000000;
+    /* filter: grayscale(100%); */
+}
+
+h1{
+    font-size: 8em;
+    background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3, #FF00EB);
+    font-family: "Lobster", "Trade Winds", "Poppins";
+    text-align: center;
+    color: #FFFFFF;
+    filter: grayscale(100%);
+}
+
+img{
+    display: inline-block;
+    margin: 6% 35%;
+    margin-top: 4%;
+    width: 25%;
+    filter: grayscale(100%);
+}
+
+footer{
+    font-size: 2em;
+    background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3, #FF00EB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Trade Winds", "Lobster", "Poppins";
+    text-align: center;
+    color: #FFFFFF;
+    filter: grayscale(100%);
+}
+
+/*To add hover property to each and every element on the page simultanously(IMPORTANT PROPERTY)*/
+*:hover{
+    filter: grayscale(0%);
+    transition: 0.4s;
+}
