@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Poppin", "Lobster";
+    font-size: 4em;
+    text-align: center;
+    color: #FFFFFF;
+     background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3, #FF00EB);
+}
+
+button{
+    width: 20%;
+    height: 4em;
+    margin-top: 2%;
+    -webkit-border-radius: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 6%;
+}
+
+p{
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 40%;
+}
