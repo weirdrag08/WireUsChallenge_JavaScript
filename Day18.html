@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+    background-color: black;
+}
+    h1{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top:50px;
+        color: white;
+        font-size: 50px;
+    }
+p {
+  
+  font-size: 60px;
+  margin-top: 0px;
+  color:white;
+  border: 5px ridge white;
+  width:30%;
+  text-align: center;
+  margin-left: 35%;
+}
+
+</style>
+</head>
+<body>
+<h1>New Year Count Down Begins!!!!!!!</h1>
+<p id="demo"></p>
+<h1>Wuhuuuuuu, excited!!!!!!!</h1>
+<script>
+var countDownDate = new Date("Jan 01, 2021 00:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
