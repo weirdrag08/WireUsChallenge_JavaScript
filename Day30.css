@@ -1,0 +1,39 @@
+body {
+    animation: colorchange 175s linear 1s infinite; /* animation-name followed by duration in seconds*/
+       /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 175s linear 0s infinite alternate; /* Chrome and Safari */
+  }
+
+  @keyframes colorchange
+  {
+    0%   {background: red; color: cyan;}
+    33%  {background: green; color: magenta;}
+    66%  {background: blue; color: yellow;}
+    100% {background: red; color: cyan;}
+ }
+
+  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+  {
+    0%   {background: red; color: cyan;}
+    33%  {background: green; color: magenta;}
+    66%  {background: blue; color: yellow;}
+    100% {background: red; color: cyan;}
+ }
+section {
+width: 33vw;
+margin: 0 auto;
+}
+#message {
+text-align: center;
+color: inherit;
+opacity: 75%;
+mix-blend-mode: difference;
+font-family: Cooper Black, Helvetica, Arial;
+}
+h1 {
+font-size: 4.69em;
+}
+p {
+font-size: 1.6em;
+font-family: Helvetica Neue, Helvetica, Arial;
+}
